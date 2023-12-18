@@ -11,4 +11,4 @@
 FROM httpd:alpine
 WORKDIR /usr/local/apache2/htdocs
 COPY ./build /usr/local/apache2/htdocs
-CMD http-foreground
+CMD [ "http-foreground" ]
