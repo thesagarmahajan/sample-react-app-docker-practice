@@ -8,6 +8,6 @@
 # CMD apachectl -D FOREGROUND
 
 # Using httpd with alpine 
-FROM httpd
+FROM httpd:alpine
 WORKDIR /usr/local/apache2/htdocs
 COPY ./build /usr/local/apache2/htdocs
